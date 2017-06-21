@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 map">
+      <img class="map__background" src="assets/images/map.png" /> 
+      <app-person
+        *ngFor="let person of people; let index = index"
+        [userLanguage]="userLanguage"
+        [person]="person"
+        [content]="content"
+        [timeouts]="timeouts"
+        [index]="index"
+        [reset]="reset"
+        [questionBeenAnswered]="questionBeenAnswered"
+        (questionBeenAsked)="questionBeenAsked($event)"
+        (playSound)="playSound($event)"> 
+      </app-person>
+    </div>
+  </div>
+</div>

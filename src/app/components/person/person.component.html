@@ -1,0 +1,18 @@
+<div class="map-item" 
+  [ngClass]="{'--fade': fade, '--shake': shake}" 
+  [ngStyle]="{top:person.top, left:person.left, width: person.width, opacity: opacity}">
+  <img id="target-{{index}}" (click)="clickOnPerson()" class="map-item__avatar" [src]="person.avatar"/>
+
+  <div class="map-item__bubble {{request.color}} {{person.bubbleClass}}" [hidden]="!showRequestBubble">
+    <span [innerHTML]="request.request[userLanguage]"></span>
+    <img class="map-item__bubble__lang-image" [src]="request.flag"/>
+  </div>
+
+  <div class="map-item__bubble map-item__bubble__response {{content[responseId].color}} {{person.bubbleClass}}" 
+    (click)="clickOnResponseBubble()"
+    [hidden]="!showResponseBubble">
+    <i class="fa fa-volume-up"></i>
+    <span [innerHTML]="content[responseId].response"></span>
+  </div>
+
+</div>
