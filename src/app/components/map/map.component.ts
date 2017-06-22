@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
+declare var Howl: any;
 
 @Component({
   selector: 'app-map',
@@ -10,9 +11,9 @@ export class MapComponent implements OnInit {
   userLanguage: string;
   people: Array<Object>;
   content: Array<Object>;
-  timeouts: Array<Object>;
+  timeouts: Array<any>;
   questionBeenAnswered: Object; 
-  playData: Array<Object>;
+  playData: Array<any>;
   reset: boolean;
 
   constructor(private http: Http) {
@@ -31,7 +32,7 @@ export class MapComponent implements OnInit {
       .subscribe((res: Response) => {
         this.people = res.json().people;
         this.content = res.json().content;
-        this.loadSounds();
+        this.loadSounds(res.json().content);
       })
   }
 
@@ -53,10 +54,10 @@ export class MapComponent implements OnInit {
     }
   }
 
-  loadSounds() {
-    for (var i = 0; i < this.content.length; i++) {        
+  loadSounds(data) {
+    for (var i = 0; i < data.length; i++) {        
       var sound = new Howl({
-        src: [this.content[i]['sound']]
+        src: [data[i]['sound']]
       });
       this.playData.push(sound);
     } 

@@ -10,7 +10,7 @@ export class PersonComponent implements OnInit, OnChanges {
   @Input() userLanguage: string; // Browser language
   @Input() person: Object; // Item on a map representing a person
   @Input() content: Array<Object>; // Array of requests/responses
-  @Input() timeouts: Array<Object>;
+  @Input() timeouts: Array<any>;
   @Input() index: number;
   @Input() reset: boolean;
   @Input() questionBeenAnswered: Object;
@@ -70,8 +70,8 @@ export class PersonComponent implements OnInit, OnChanges {
     let answer = changes['questionBeenAnswered'];
     
     let reset = changes['reset'];
-    console.log('ngOnChanges');
-    console.log(reset.currentValue);
+    // console.log('ngOnChanges');
+    // console.log(reset.currentValue);
 
     if (answer.currentValue) {
 
@@ -106,14 +106,6 @@ export class PersonComponent implements OnInit, OnChanges {
       }
     }
 
-    // let cur  = JSON.stringify(answer.currentValue);
-    // let prev = JSON.stringify(answer.previousValue);
-    // console.log('cur='+cur, 'prev='+prev);
-    
-
-    // if (cur['senderIndex'] !== this.index) {
-    //   this.fade = true;
-    // }
   }
 
 
