@@ -1,0 +1,9 @@
+@import "../../../styles/variables";
+
+.jumbotron {
+  background-color: $tatami-blue;
+  color: $tatami-white;
+  min-height: 500px;
+  background-image: url('../../../assets/images/hero-background.png');
+  background-size: 300px auto;
+}

@@ -21,6 +21,11 @@
       "styles": [
         "styles.scss"
       ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "../node_modules/bootstrap/scss"
+        ]
+      },
       "scripts": [
         "../node_modules/howler/dist/howler.min.js"
       ],
