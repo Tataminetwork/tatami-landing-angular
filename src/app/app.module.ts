@@ -4,9 +4,10 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MapComponent } from './components/map/map.component';
-import { PersonComponent } from './components/person/person.component';
+import { PersonComponent } from './components/map/person/person.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { TeamComponent } from './components/team/team.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     MapComponent,
     PersonComponent,
     HeroComponent,
-    NavbarComponent
+    NavbarComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

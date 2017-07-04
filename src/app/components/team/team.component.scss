@@ -1,0 +1,21 @@
+@import "../../../styles/variables";
+
+.team {
+  margin: 5em 0;
+
+  img {
+    width: 70px;
+    display: inline-block;
+    margin: 2em 0;
+  }
+
+  .title {
+    opacity: 0.4;
+  }
+
+  .info {
+    margin: 1em auto;
+    max-width: 250px;
+    font-size: 0.9em;
+  }
+}

@@ -1,9 +1,18 @@
 @import "../../../styles/variables";
 
-.jumbotron {
+.hero {
   background-color: $tatami-blue;
   color: $tatami-white;
-  min-height: 500px;
+  height: 100%;
   background-image: url('../../../assets/images/hero-background.png');
   background-size: 300px auto;
+  padding: 0;
+  text-align: center;
+
+  &__inner {
+    margin-top: -60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 }

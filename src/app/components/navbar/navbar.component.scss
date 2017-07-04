@@ -1,5 +1,11 @@
+@import "../../../styles/variables";
+
 .navbar {
-  list-style: none;
-  width: 100%;
   text-align: center;
+  background-color: transparent;
+  background: transparent;
+
+  .nav-item {
+    color: $tatami-white;
+  }
 }

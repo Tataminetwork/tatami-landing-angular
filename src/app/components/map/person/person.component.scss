@@ -1,5 +1,5 @@
-@import "../../../styles/variables";
-@import "../../../styles/animations";
+@import "../../../../styles/variables";
+@import "../../../../styles/animations";
 
 .map-item {
   opacity: 0;
@@ -30,7 +30,7 @@
       backface-visibility: hidden;
       perspective: 1000px;
     }
-    
+
   }
 
   img.map-item__avatar {
@@ -42,14 +42,14 @@
     position: absolute;
     bottom: 80%;
     left: 140%;
-    color: #fff;
+    color: $tatami-white;
     z-index:1;
     text-align: center;
     white-space: nowrap;
 
     -webkit-transition: all 100ms ease-in-out;
     -webkit-transform: scale(1);
-    
+
     h4 {
       margin:0;
     }
@@ -132,17 +132,17 @@
 }
 
 @media (max-width: 768px) {
-  
+
   .map-item__bubble {
     font-size: $max-font-size/2.2;
     line-height: $max-font-size/2.2;
     padding: 15px;
-    border-radius: 20px; 
+    border-radius: 20px;
   }
 }
 
 @media (max-width: 544px) {
-  
+
   .map-item__bubble {
     font-size: $max-font-size/4.2;
     line-height: $max-font-size/4.2;

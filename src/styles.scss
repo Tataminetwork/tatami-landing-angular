@@ -46,6 +46,11 @@
 // Utility classes
 @import "utilities";
 
-body {
-  font-family: 'Varela Round', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// end bootstrap
+
+// Tatami
+@import "styles/type";
+
+html, body {
+  height: 100%;
 }
