@@ -5,6 +5,10 @@
   background-color: transparent;
   background: transparent;
 
+  .navbar-collapse {
+    justify-content: center;
+  }
+
   .nav-item {
     color: $tatami-white;
   }
