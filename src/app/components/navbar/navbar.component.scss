@@ -11,5 +11,11 @@
 
   .nav-item {
     color: $tatami-white;
+
+    img {
+      width: 20px;
+      display: inline-block;
+      margin-right: 0.5em;
+    }
   }
 }
