@@ -14,5 +14,13 @@
     height: 100%;
     display: flex;
     align-items: center;
+
+    &__email-input {
+      width: 300px;
+      margin: 5px 15px;
+      border: 0;
+      outline-width: 0;
+      opacity: 0.5;
+    }
   }
 }

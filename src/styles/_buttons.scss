@@ -1,0 +1,77 @@
+/* tatami buttons */
+
+$btn-default-color: #f26e7c !default;
+
+.btn, button {
+  &:focus, &:active {
+    outline: 0 !important;
+    box-shadow: none;
+  }
+
+  line-height: auto;
+  border-radius: 20px;
+  outline-width: 0;
+}
+
+
+.btn-tatami-blue {
+  background-color: $tatami-blue;
+  border-color: $tatami-blue;
+  color: #fff;
+
+  &:hover, &:active, &:focus {
+    color: #fff;
+    background-color: darken($tatami-blue, 5%);
+  }
+}
+
+.btn-tatami-green {
+  background-color: $tatami-green;
+  border-color: $tatami-green;
+  color: #fff;
+  &:hover, &:active, &:focus {
+    color: #fff;
+    background-color: darken($tatami-green, 5%);
+  }
+}
+
+.btn-tatami-default {
+  display: inline-block;
+  margin: 10px 0 10px 0;
+  color: #444;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 27px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid #E2E2E2;
+}
+
+.round-btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  width: 55px;
+  height: 55px;
+  background-color: #DADADA;
+  color: #fff;
+  font-size: 30px;
+  line-height: inherit;
+  border-radius: 50%;
+
+  &.round-btn-like {
+    line-height: 55px;
+  }
+
+  &.active {
+    background-color: $tatami-red;
+  }
+
+  &:hover {
+    background-color: lighten($tatami-red, 5%);
+  }
+
+  &:active {
+    font-size: 32px;
+  }
+}
