@@ -1,0 +1,251 @@
+{
+  "people": [{
+    "avatar": "assets/images/people/user_1.png",
+    "width": "6.7%",
+    "top": "30%",
+    "left": "81%",
+    "requestId": 10,
+    "responseIds": [0, 7, 12],
+    "bubbleClass": "--bubble-left"
+  }, {
+    "avatar": "assets/images/people/user_2.png",
+    "width": "6.7%",
+    "top": "18%",
+    "left": "53%",
+    "requestId": 13,
+    "responseIds": [6, 9],
+    "bubbleClass": "--bubble-left"
+  }, {
+    "avatar": "assets/images/people/user_3.png",
+    "width": "6.7%",
+    "top": "57%",
+    "left": "82%",
+    "requestId": 5,
+    "responseIds": [99],
+    "bubbleClass": "--bubble-left"
+  }, {
+    "avatar": "assets/images/people/user_4.png",
+    "width": "6.7%",
+    "top": "66%",
+    "left": "92%",
+    "requestId": 4,
+    "responseIds": [99],
+    "bubbleClass": "--bubble-left"
+  }, {
+    "avatar": "assets/images/people/user_5.png",
+    "width": "5.7%",
+    "top": "27%",
+    "left": "10%",
+    "requestId": 0,
+    "responseIds": [99]
+  }, {
+    "avatar": "assets/images/people/user_6.png",
+    "width": "6%",
+    "top": "54%",
+    "left": "21%",
+    "requestId": 6,
+    "responseIds": [5, 10, 14]
+  }, {
+    "avatar": "assets/images/people/user_7.png",
+    "width": "6.7%",
+    "top": "54%",
+    "left": "54%",
+    "requestId": 2,
+    "responseIds": [99]
+  }, {
+    "avatar": "assets/images/people/user_8.png",
+    "width": "5.3%",
+    "top": "23%",
+    "left": "62%",
+    "requestId": 11,
+    "responseIds": [4]
+  }, {
+    "avatar": "assets/images/people/user_9.png",
+    "width": "6.7%",
+    "top": "34%",
+    "left": "69%",
+    "requestId": 9,
+    "responseIds": [99]
+  }, {
+    "avatar": "assets/images/people/user_10.png",
+    "width": "5.7%",
+    "top": "12%",
+    "left": "20%",
+    "requestId": 14,
+    "responseIds": [8, 11]
+  }, {
+    "avatar": "assets/images/people/user_11.png",
+    "width": "6.7%",
+    "top": "3%",
+    "left": "74%",
+    "requestId": 1,
+    "responseIds": [2, 13],
+    "bubbleClass": "--bubble-left"
+  }, {
+    "avatar": "assets/images/people/user_12.png",
+    "width": "6.7%",
+    "top": "63%",
+    "left": "28%",
+    "requestId": 3,
+    "responseIds": [99]
+  }, {
+    "avatar": "assets/images/people/user_13.png",
+    "width": "6.7%",
+    "top": "37%",
+    "left": "45%",
+    "requestId": 7,
+    "responseIds": [99],
+    "bubbleClass": "--bubble-left"
+  }, {
+    "avatar": "assets/images/people/user_14.png",
+    "width": "5.7%",
+    "top": "11%",
+    "left": "42%",
+    "requestId": 12,
+    "responseIds": [1],
+    "bubbleClass": "--bubble-left"
+  }, {
+    "avatar": "assets/images/people/user_15.png",
+    "width": "5.7%",
+    "top": "0",
+    "left": "48%",
+    "requestId": 8,
+    "responseIds": [3]
+  }],
+  "content": [{
+    "request": {
+      "en": "How do I say <br> \"Good Morning\" <br> in Chinese?",
+      "ru": "Как сказать <br> \"Доброе утро\" по китайски?"
+    },
+    "response": "早上好",
+    "sound": "assets/sounds/zh-phrases-11.mp3",
+    "flag": "assets/images/flags/zh.gif",
+    "color": "color-blue"
+  }, {
+    "request": {
+      "en": "\"What's your name?\" <br> in british accent <br> please",
+      "ru": "\"What's your name?\" <br> с английским акцентом?"
+    },
+    "response": "\"What's your name?\"",
+    "sound": "assets/sounds/uk-flirting-dating-19.mp3",
+    "flag": "assets/images/flags/en-gb.gif",
+    "color": "color-red"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"You have beautiful eyes\" <br> in Russian?",
+      "ru": "How do I say <br> \"You have beautiful eyes\" <br> in Russian?"
+    },
+    "response": "\"У тебя красивые глаза\"",
+    "sound": "assets/sounds/ru-anna-71.mp3",
+    "flag": "assets/images/flags/ru.gif",
+    "color": "color-green"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"I like your smile\" <br> in French?",
+      "ru": "Как сказать <br> \"Мне нравится твоя улыбка\"<br>  по французски?"
+    },
+    "response": "\"J'aime ton sourire\"",
+    "sound": "assets/sounds/pierre-83.mp3",
+    "flag": "assets/images/flags/fr.gif",
+    "color": "color-blue"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"Would you like to dance?\" <br> in Arabic?",
+      "ru": "Как сказать <br> \"Хочешь потанцевать\" <br> по арабски?"
+    },
+    "response": "\"هل تودين الرقص؟\"",
+    "sound": "assets/sounds/ar-eg-73.mp3",
+    "flag": "assets/images/flags/ar-eg.gif",
+    "color": "color-orange"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"I'm so hungry\" <br> in Spanish?",
+      "ru": "Как сказать <br> \"Я очень голоден\" <br> по испански?"
+    },
+    "response": "\"Estoy muy hambriento\"",
+    "sound": "assets/sounds/es-mx-61.mp3",
+    "flag": "assets/images/flags/es-mx.gif",
+    "color": "color-red"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"That was delicious! Thank you\" <br> in Italian?",
+      "ru": "Как сказать <br> \"Это было очень вкусно! Спасибо\"<br>  по итальянски?"
+    },
+    "response": "\"Era delizioso! Grazie\"",
+    "sound": "assets/sounds/it-phrases-39.mp3",
+    "flag": "assets/images/flags/it.gif",
+    "color": "color-green"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"Good afternoon\" <br> in Japanese?",
+      "ru": "Как сказать <br> \"Добрый день\" <br> по японски?"
+    },
+    "response": "\"こんにちは\"",
+    "sound": "assets/sounds/jp-20.mp3",
+    "flag": "assets/images/flags/jp.gif",
+    "color": "color-blue"
+  }, {
+    "request": {
+      "en": "\"How are you?\" <br> with American Accent?",
+      "ru": "\"How are you?\" <br> с американским акцентом?"
+    },
+    "response": "\"How are you?\"",
+    "sound": "assets/sounds/us-greetings-07.mp3",
+    "flag": "assets/images/flags/en-us.gif",
+    "color": "color-orange"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"Could I see<br> the dessert menu?\" <br> in Italian?",
+      "ru": "Как сказать <br> \"Можно посмотреть <br> меню десертов\" <br> по итальянски?"
+    },
+    "response": "\"Posso vedere <br>il menù dei dolci?\"",
+    "sound": "assets/sounds/it-phrases-49.mp3",
+    "flag": "assets/images/flags/it.gif",
+    "color": "color-green"
+  }, {
+    "request": {
+      "en": "How do I say <br> \"I find you very attractive\" <br> in Spanish?",
+      "ru": "Как сказать <br> \"Ты очень симпатичная\" <br> по испански?"
+    },
+    "response": "\"Te encuentro <br>muy atractiva\"",
+    "sound": "assets/sounds/es-mx-98.mp3",
+    "flag": "assets/images/flags/es-mx.gif",
+    "color": "color-blue"
+  }, {
+    "request": {
+      "en": "\"Peter Piper picked <br> a peck of pickled peppers\" <br> with American <br> accent please?",
+      "ru": "\"Peter Piper picked <br> a peck of pickled peppers\" <br> с американским <br> акцентом?"
+    },
+    "response": "\"Peter Piper picked <br>a peck of <br>pickled peppers\"",
+    "sound": "assets/sounds/us-tongue-twister-01.mp3",
+    "flag": "assets/images/flags/en-us.gif",
+    "color": "color-red"
+  }, {
+    "request": {
+      "en": "\"貴社の記者<br>は汽車で帰社した\" <br> in Japanese?",
+      "ru": "\"貴社の記者<br>は汽車で帰社した\" <br> по японски?"
+    },
+    "response": "\"貴社の記者<br>は汽車で帰社した。\"",
+    "sound": "assets/sounds/jp-04.mp3",
+    "flag": "assets/images/flags/jp.gif",
+    "color": "color-green"
+  }, {
+    "request": {
+      "en": "\"Шла Саша по шоссе <br> и сосала сушку.\" <br> in Russian?",
+      "ru": "\"Шла Саша по шоссе <br> и сосала сушку.\" <br> на русском"
+    },
+    "response": "\"Шла Саша <br>по шоссе <br>и сосала сушку.\"",
+    "sound": "assets/sounds/ru-anna-06.mp3",
+    "flag": "assets/images/flags/ru.gif",
+    "color": "color-red"
+  }, {
+    "request": {
+      "en": "\"Tres tristes tigres tragaban <br>trigo en un trigal <br>en tres tristes trastos..\" <br> in Spanish please?",
+      "ru": "\"Tres tristes tigres tragaban <br>trigo en un trigal <br>en tres tristes trastos..\" <br> на испанском?"
+    },
+    "response": "\"Tres tristes <br>tigres tragaban ...\"",
+    "sound": "assets/sounds/es-mx-01.mp3",
+    "flag": "assets/images/flags/es-mx.gif",
+    "color": "color-orange"
+  }]
+}
