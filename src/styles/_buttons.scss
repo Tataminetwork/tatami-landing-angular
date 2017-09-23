@@ -1,4 +1,5 @@
 /* tatami buttons */
+@import "variables";
 
 $btn-default-color: #f26e7c !default;
 
@@ -9,7 +10,7 @@ $btn-default-color: #f26e7c !default;
   }
 
   line-height: auto;
-  border-radius: 20px;
+  border-radius: $border-radius;
   outline-width: 0;
 }
 
@@ -74,4 +75,33 @@ $btn-default-color: #f26e7c !default;
   &:active {
     font-size: 32px;
   }
+}
+
+.svg-icon {
+  width: 94px;
+  height: 94px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+
+  svg, img {
+    width: 40px;
+  }
+
+  &--red {
+    background-color: $tatami-red;
+  }
+
+  &--blue {
+    background-color: $tatami-blue;
+
+    svg, img {
+      width: 55px;
+    }
+  }
+
+  &--green {
+    background-color: $tatami-green;
+  }
+
 }

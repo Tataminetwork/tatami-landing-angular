@@ -5,17 +5,42 @@
   background-color: transparent;
   background: transparent;
 
-  .navbar-collapse {
-    justify-content: center;
+  .navbar-brand {
+    font-size: 48px;
+    color: $text-color;
+    letter-spacing: -1.1px;
   }
 
   .nav-item {
-    color: $tatami-white;
+    font-size: 15px;
+    color: $text-color;
+    // margin-right: 3px;
 
-    img {
-      width: 20px;
+    i {
+      width: 25px;
+      height: 25px;
+      color: $white;
+      border-radius: 50%;
+      line-height: 25px;
       display: inline-block;
-      margin-right: 0.5em;
+      margin-right: 5px;
+
+      &.fa-slack {
+        background-color: $slack;
+      }
+
+      &.fa-facebook {
+        background-color: $facebook;
+      }
+
+      &.fa-twitter {
+        background-color: $twitter;
+      }
+
+      &.fa-github {
+        background-color: $github;
+      }
+
     }
   }
 }
