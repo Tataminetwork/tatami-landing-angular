@@ -1,6 +1,6 @@
-# TatamiLandingAngular
+# Tatami Landing Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
 ## Development server
 
@@ -13,6 +13,21 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Deploy to github-pages
+
+Install angular-cli-ghpages
+`npm i -g angular-cli-ghpages`
+
+Use it like this `ng build --prod --base-href "https://USERNAME.github.io/REPOSITORY_NAME/"`
+
+Example
+
+```
+ng build --prod --base-href "https://tataminetwork.github.io/tatami-landing-angular/"
+angular-cli-ghpages
+```
+
 
 ## Running unit tests
 
