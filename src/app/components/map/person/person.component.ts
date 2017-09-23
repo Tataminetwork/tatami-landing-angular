@@ -8,8 +8,8 @@ import { Component, OnInit, OnChanges, SimpleChanges, Input, EventEmitter } from
 })
 export class PersonComponent implements OnInit, OnChanges {
   @Input() userLanguage: string; // Browser language
-  @Input() person: Object; // Item on a map representing a person
-  @Input() content: Array<Object>; // Array of requests/responses
+  @Input() person: any; // Item on a map representing a person
+  @Input() content: Array<any>; // Array of requests/responses
   @Input() timeouts: Array<any>;
   @Input() index: number;
   @Input() reset: boolean;
@@ -18,7 +18,7 @@ export class PersonComponent implements OnInit, OnChanges {
   opacity: number;
   fade: boolean;
   shake: boolean;
-  request: Object;
+  request: any;
   responseId: number;
   showRequestBubble: boolean;
   showResponseBubble: boolean;
@@ -30,7 +30,7 @@ export class PersonComponent implements OnInit, OnChanges {
     this.playSound = new EventEmitter();
     this.showRequestBubble = false;
     this.showResponseBubble = false;
-    
+
   }
 
   ngOnInit() {
@@ -49,9 +49,9 @@ export class PersonComponent implements OnInit, OnChanges {
     for (var i=0; i<this.timeouts.length; i++) {
       if (this.timeouts[i]) {
         clearTimeout(this.timeouts[i]);
-      }      
+      }
     }
-    
+
     // reset
     this.fade = false;
 
@@ -68,7 +68,7 @@ export class PersonComponent implements OnInit, OnChanges {
   ngOnChanges(changes: SimpleChanges) {
 
     let answer = changes['questionBeenAnswered'];
-    
+
     let reset = changes['reset'];
     // console.log('ngOnChanges');
     // console.log(reset.currentValue);
@@ -85,8 +85,8 @@ export class PersonComponent implements OnInit, OnChanges {
 
       // check if person has answer to request
       if (this.person['responseIds'].indexOf(answer.currentValue['requestId']) >= 0) {
-         
-        // update response bubble content       
+
+        // update response bubble content
         this.responseId = answer.currentValue['requestId']
 
         // animate person
